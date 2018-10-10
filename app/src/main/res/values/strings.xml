@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Restaurant Order</string>
+    <string name="header">What would you like to order today?</string>
+    <string name="starter">Starter</string>
+    <string name="main">Main</string>
+    <string name="order">Order</string>
+    <string name="message">You must select at least one option</string>
+    <string name="final_Order">You ordered: </string>
+</resources>
