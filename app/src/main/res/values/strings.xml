@@ -1,9 +1,15 @@
 <resources>
-    <string name="app_name">Restaurant Order</string>
+    <string name="app_name">Menu</string>
     <string name="header">What would you like to order today?</string>
     <string name="starter">Starter</string>
-    <string name="main">Main</string>
-    <string name="order">Order</string>
+    <string name="main_course">Main Course</string>
+    <string name="starter1">Ensalada</string>
+    <string name="starter2">Ocopa</string>
+    <string name="starter3">Sopa</string>
+    <string name="main1">Estofado de pollo</string>
+    <string name="main2">Tallarines</string>
+    <string name="main3">Aji de gallina</string>
+    <string name="accept">Accept</string>
     <string name="message">You must select at least one option</string>
     <string name="final_Order">You ordered: </string>
 </resources>

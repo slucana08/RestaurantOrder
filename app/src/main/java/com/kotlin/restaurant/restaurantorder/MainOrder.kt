@@ -13,17 +13,17 @@ class MainOrder : AppCompatActivity() {
         setContentView(R.layout.activity_main_order)
     }
 
-    fun order(view: View){
-        var finalResult = getString(R.string.final_Order)
-        val starter = starter_checkBox.isChecked
-        val main = main_checkBox.isChecked
-        if (!starter && !main)
-            Toast.makeText(this, getString(R.string.message), Toast.LENGTH_SHORT).show()
-        else {
-            if (starter) finalResult += "\n * ${getString(R.string.starter)}"
-            if (main) finalResult += "\n * ${getString(R.string.main)}"
-        }
-        finalOrder_textView.text = finalResult
-    }
+//    fun order(view: View){
+//        var finalResult = getString(R.string.final_Order)
+//        val starter = starter_checkBox.isChecked
+//        val main = main_checkBox.isChecked
+//        if (!starter && !main)
+//            Toast.makeText(this, getString(R.string.message), Toast.LENGTH_SHORT).show()
+//        else {
+//            if (starter) finalResult += "\n * ${getString(R.string.starter)}"
+//            if (main) finalResult += "\n * ${getString(R.string.main)}"
+//        }
+//        finalOrder_textView.text = finalResult
+//    }
 }
 
